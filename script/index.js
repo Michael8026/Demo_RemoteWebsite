@@ -4,7 +4,7 @@ const featureBlog = document.getElementById('feature-blog')
 const companyBlog = document.getElementById("company-blog");
 
 
-featureBtn.addEventListener('click', () =>{
+featureBtn.addEventListener('hover', () =>{
    if(featureBlog.classList.contains('display-none')){
     featureBlog.classList.remove('display-none')
    }
@@ -14,7 +14,7 @@ featureBtn.addEventListener('click', () =>{
 })
 
 
-companyBtn.addEventListener("click", () => {
+companyBtn.addEventListener("hover", () => {
   if (companyBlog.classList.contains("display-none")) {
     companyBlog.classList.remove("display-none");
   } else {
